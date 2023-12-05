@@ -1,7 +1,7 @@
 <!-- Begin README -->
 
 <div align="center">
-    <a href="https://github.com/scottgriv/php-image_carousel" target="_blank">
+    <a href="https://github.com/scottgriv/javascript-image_carousel" target="_blank">
         <img src="./docs/images/icon.png" width="150" height="150"/>
     </a>
 </div>
@@ -59,13 +59,14 @@ Upload and Organize Images for Display: This application allows users to upload 
 4. Click the **Choose Files** button to select the images you want to upload.
 5. Rearrange the images in the order you want them to be displayed.
 6. Click **Save** to upload the images to the server.
-7. Navigate to the full ``Display_Solution.php`` web server address in your web browser.
+    - The images will be saved to the ``src/uploads`` directory.
+7. Navigate to the full ``display.php`` web server address in your web browser.
 
     ``ex. http://localhost/javascript-image_carousel/src/php/display.php``
 8. The images will be displayed in the order you arranged them in the previous step.
 
 > [!NOTE]
-> This project is an extension of my [Display Solution](https://github.com/scottgriv/php-display_solution), which is a simple script that cycles through image files in a declared directory for informative displays. The [Image Carousel](https://github.com/scottgriv/php-image_carousel) project adds the ability to upload and organize images for display without having to manually edit the file names.
+> This project is an extension of my [PHP Display Solution](https://github.com/scottgriv/php-display_solution) project, which is a simple script that cycles through image files in a declared directory for informative displays. The [Image Carousel](https://github.com/scottgriv/javascript-image_carousel) project adds the ability to upload and organize images for display without having to manually edit the file names using JavaScript.
 
 > [!WARNING]
 > Currently, the ability to retieve previously uploaded images is not available. If you want to change the images being displayed, you will need to upload new images and arrange them in the order you want them to be displayed.
@@ -73,6 +74,9 @@ Upload and Organize Images for Display: This application allows users to upload 
 
 ## Resources
 
+- [JavaScript](https://www.javascript.com/)
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/)
 - [PHP](https://www.php.net/)
 - [jQuery](https://jquery.com/)
 - [XAMPP](https://www.apachefriends.org/index.html)
@@ -88,7 +92,7 @@ This project is released under the terms of **The Unlicense**, which allows you 
 **Author:** [Scott Grivner](https://github.com/scottgriv) <br>
 **Email:** [scott.grivner@gmail.com](mailto:scott.grivner@gmail.com) <br>
 **Website:** [scottgrivner.dev](https://www.scottgrivner.dev) <br>
-**Reference:** [Main Branch](https://github.com/scottgriv/php-image_carousel) <br>
+**Reference:** [Main Branch](https://github.com/scottgriv/javascript-image_carousel) <br>
 
 ---------------
 
