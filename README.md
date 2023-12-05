@@ -5,7 +5,12 @@
         <img src="./docs/images/icon.png" width="150" height="150"/>
     </a>
 </div>
+<br>
 <p align="center">
+    <a href="https://www.javascript.com/"><img src="https://img.shields.io/badge/JavaScript-ES13-F7DF1E?style=for-the-badge&logo=javascript" alt="JavaScript Badge" /></a>
+    <a href="https://www.w3schools.com/html/"><img src="https://img.shields.io/badge/HTML-5-E34F26?style=for-the-badge&logo=html5" alt="HTML Badge" /></a>
+    <a href="https://www.w3schools.com/css/)"><img src="https://img.shields.io/badge/CSS-3-1572B6?style=for-the-badge&logo=css3" alt="CSS Badge" /></a>
+    <br>
     <a href="https://www.php.net/"><img src="https://img.shields.io/badge/PHP-8.2-777BB4?style=for-the-badge&logo=php" alt="PHP Badge" /></a>
     <a href="https://releases.jquery.com/jquery/"><img src="https://img.shields.io/badge/jQuery-2.1.3-0769AD?style=for-the-badge&logo=jquery" alt="jQuery Badge" /></a>
     <a href="https://www.apachefriends.org/blog/new_xampp_20220516.html"><img src="https://img.shields.io/badge/XAMPP-8.1.6-FB7A24?style=for-the-badge&logo=xampp" alt="XAMPP Badge" /></a>
@@ -50,13 +55,13 @@ Upload and Organize Images for Display: This application allows users to upload 
 2. Move the repository to your web server's root directory (such as XAMPP's htdocs folder).
 3. Start your web server and navigate to the upload image interface in your web browser.
 
-    ``ex. http://localhost/php-image_carousel/upload.html``
+    ``ex. http://localhost/javascript-image_carousel/index.html``
 4. Click the **Choose Files** button to select the images you want to upload.
 5. Rearrange the images in the order you want them to be displayed.
 6. Click **Save** to upload the images to the server.
 7. Navigate to the full ``Display_Solution.php`` web server address in your web browser.
 
-    ``ex. http://localhost/php-image_carousel/display.php``
+    ``ex. http://localhost/javascript-image_carousel/src/php/display.php``
 8. The images will be displayed in the order you arranged them in the previous step.
 
 > [!NOTE]

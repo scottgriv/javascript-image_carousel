@@ -1,14 +1,14 @@
 <html>
 <link rel="icon" 
 		type="image/png" 
-		href="images/favicon.ico">
+		href="../images/favicon.ico">
 <?php
 
 	// $ini = parse_ini_file('./config/config.ini'); 					    // Optional config file for settings, adjust the paths below to use this
-	$directory = '../' . basename(__DIR__) . '/uploads';					// image folder directory from config file			
-	$countDirect = '../' . basename(__DIR__) . '/uploads'; 					// image folder directory from config file		
+	$directory = '../uploads';				// image folder directory from config file			
+	$countDirect = '../uploads'; 				// image folder directory from config file		
 	$extension = '.jpg';  						    						// extension format from config file
-	$seconds = '3';		 									    			// seconds to switch between images from config file
+	$seconds = '5';		 									    			// seconds to switch between images from config file
     $file_count = count(glob("$countDirect/*$extension"));					// file count for the number of images in the image directory
 
 ?>
@@ -18,7 +18,7 @@
 <body>
     
 <!-- Default Logo -->
-<img src="images/logo.png" width="100%" height="100%" id="rotator"/>
+<img src="../images/logo.png" width="100%" height="100%" id="rotator"/>
 
 <script type="text/javascript">
 (function() {

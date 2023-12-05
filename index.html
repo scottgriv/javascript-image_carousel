@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <title>Image Carousel - Display Solution</title>
+    <link rel="icon" type="image/png" href="src/images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="src/css/bootstrap.min.css" />
+    <script type="text/javascript" src="src/js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="src/js/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="src/css/style.css" />
+    <script src="src/js/script.js"></script>
+  </head>
+  <body>
+    <br />
+    <div style="text-align: center">
+      <img src="src/images/logo.png" width="200px" height="200px" />
+    </div>
+    <div class="container-fluid">
+      <div style="text-align: center">
+        <h2>Image Carousel - Display Solution</h2>
+        <h4>
+          <a href="src/php/display.php" target="_blank"
+            >Click here to Preview the Display</a
+          >
+        </h4>
+      </div>
+      <br />
+      <div class="col-md-6">
+        <div class="form-group">
+          <label>Select Images</label>
+          <input
+            type="file"
+            name="upload"
+            multiple="multiple"
+            class="form-control user_picked_files"
+          />
+        </div>
+
+        <div class="form-group cvf_order">
+          <label>Order</label>
+          <input
+            type="text"
+            class="form-control cvf_hidden_field"
+            value=""
+            disabled="disabled"
+          />
+        </div>
+
+        <input
+          type="submit"
+          class="cvf_upload_btn btn btn-primary"
+          value="Save"
+          style="background-color: #152d4f"
+        />
+
+        <h5 class="text">Display order will be shown here.</h5>
+
+        <ul class="cvf_uploaded_files"></ul>
+      </div>
+    </div>
+  </body>
+</html>
