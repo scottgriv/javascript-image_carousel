@@ -69,10 +69,8 @@ Upload and Organize Images for Display: This application allows users to upload 
 > [!NOTE]
 > This project is an extension of my [PHP Display Solution](https://github.com/scottgriv/php-display_solution) project, which is a simple script that cycles through image files in a declared directory for informative displays. The [Image Carousel](https://github.com/scottgriv/javascript-image_carousel) project adds the ability to upload and organize images for display without having to manually edit the file names in their directory.
 
-> [!WARNING]
-> Currently, the ability to retrieve previously uploaded images is not available. If you want to change the images being displayed, you will need to upload new images and arrange them in the order you want them to be displayed.
-> There is also a known bug when reordering the images and saving them, without touching the images and dragging them, the number may not get correctly set in the `uploads` folder, as well as the renumbering text displayed in the UI when dragging (its not being renumbered correctly)
-> I will work on fixing the above in the future. Feel free to submit a pull request if you would like to contribute to this project and add the above features.
+- See the [Issues List](https://github.com/scottgriv/javascript-image_carousel/issues) for the enhancements needed for this application.
+- I'll work on fixing the above in the future, but eel free to submit a pull request if you would like to contribute to this project and add the above features.
 
 ## Resources
 
