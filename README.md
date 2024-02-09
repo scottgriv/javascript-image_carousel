@@ -65,6 +65,7 @@ Upload and Organize Images for Display: This application allows users to upload 
     ``ex. http://localhost/javascript-image_carousel/src/php/display.php``
 8. The images will be displayed in the order you arranged them in the previous step.
 9. Update the `src/config/config.ini` file to adjust the directory paths, image file extensions, and seconds the carousel flips through the images.
+10. Utilize the `src/images/upload_testing` by selecting the image files to demo the application.
 
 > [!NOTE]
 > This project is an extension of my [PHP Display Solution](https://github.com/scottgriv/php-display_solution) project, which is a simple script that cycles through image files in a declared directory for informative displays. The [Image Carousel](https://github.com/scottgriv/javascript-image_carousel) project adds the ability to upload and organize images for display without having to manually edit the file names in their directory.
