@@ -13,9 +13,9 @@ This file is used to connect this repository to the **PRG** project categorizati
 ## Project Information
 
 **Repository Tier:** Silver <br>
-**Technology:** JavaScript, jQuery, PHP, HTML, CSS <br>
-**Category:** Web Application <br>
-**Order:** 12 <br>
+**Technology:** JavaScript, jQuery, PHP, HTML, CSS, XAMPP, Apache <br>
+**Category:** Web Application, Web Server <br>
+**Order:** 14 <br>
 
 ## Parameters
 
